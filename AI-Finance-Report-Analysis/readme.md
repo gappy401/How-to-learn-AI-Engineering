@@ -15,6 +15,17 @@ The app generates an executive summary and supports interactive Q&A so stakehold
 ---
 ## 📸 Demo
 
+## 📸 Demo
+
+Here are the screenshots showing the app in action:
+
+### 1. Tool UI
 ![Tool UI](Tool-UI.jpg)
 
-Demo video (`Demo.mp4`) is available in the repository.
+### 2. Loaded Report
+![Loaded](Loaded.jpg)
+
+### 3. Chatting with the Report
+![Chatting](Chatting.jpg)
+
+Demo video (`Demo.mp4`) is also available in the repository.
