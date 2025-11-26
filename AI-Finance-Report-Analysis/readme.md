@@ -1,11 +1,11 @@
-# 📊 Financial Report Analyzer
+# Financial Report Analyzer
 
 A Streamlit application that lets you upload a financial report (PDF) and interact with it using Groq LLMs.  
 The app generates an executive summary and supports interactive Q&A so stakeholders can quickly understand revenue trends, growth drivers, risks, and forward guidance.
 
 ---
 
-## 🚀 Features
+# Features
 - Upload PDF financial reports
 - Automatic executive summary
 - Interactive Q&A
@@ -13,9 +13,7 @@ The app generates an executive summary and supports interactive Q&A so stakehold
 - Built with LangChain + PyMuPDF + Streamlit
 
 ---
-## 📸 Demo
-
-## 📸 Demo
+# Demo
 
 Here are the screenshots showing the app in action:
 
