@@ -1,0 +1,7 @@
+2026-05-28T02:14:03Z INFO  billing.worker  processing invoice id=inv_88213 customer=acme
+2026-05-28T02:14:03Z DEBUG billing.compute subtotal=200.00 discount_percent=25 tax_rate=0.08
+2026-05-28T02:14:03Z ERROR billing.compute computed total=-5184.00 expected>0 invoice=inv_88213
+2026-05-28T02:14:03Z ERROR billing.worker invoice total negative, refusing to charge id=inv_88213
+2026-05-28T02:14:04Z WARN  billing.worker 14 invoices in last 5m produced negative totals
+2026-05-28T02:14:05Z INFO  billing.deploy last deploy 2026-05-28T01:55Z commit=a3f9c1 "refactor discount math"
+2026-05-28T02:14:06Z DEBUG billing.compute discount path: subtotal - (subtotal * discount_percent)

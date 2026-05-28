@@ -1,0 +1,12 @@
+{
+  "alert_id": "PD-2026-0528-0001",
+  "source": "datadog",
+  "severity": "critical",
+  "service": "billing",
+  "title": "Negative invoice totals in production",
+  "description": "Multiple invoices computing negative totals. Charges blocked. Started shortly after the 01:55Z deploy.",
+  "error_signature": "billing.compute computed total=-5184.00 expected>0",
+  "suspect_files": ["src/billing.py"],
+  "log_query": "service:billing status:error",
+  "triggered_at": "2026-05-28T02:14:05Z"
+}
